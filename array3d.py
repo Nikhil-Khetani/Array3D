@@ -23,9 +23,9 @@ def plot3dmatrix(arr):
                 number = str(arr[i,j,k])
                 ax.text(i,j,k,label=number,s=number)
                 #ax.scatter3D(i,j,k, label= number)
-                
+    plt.axis("off") 
     plt.show()
     return
 
-plot3darray(arr)
+plot3dmatrix(arr)
 
