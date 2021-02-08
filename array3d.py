@@ -1,9 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-##Create test array
-#test_arr = np.array([[[1,4,5],[4,3,8],[2,7,2]],[[2,2,4],[8,5,2],[6,4,9]],[[5,8,2],[5,8,2],[5,9,2]],[[5,8,2],[5,8,2],[5,9,2]]])
-
 def plot3dmatrix(arr):
     #Visualizes a 3-dimensional numpy array
     fig = plt.figure()
@@ -27,6 +24,10 @@ def plot3dmatrix(arr):
                 ax.text(i,j,k,label=number,s=number, color=colors[i])
     plt.show()
     return
+
+
+##Create test array
+#test_arr = np.array([[[1,4,5],[4,3,8],[2,7,2]],[[2,2,4],[8,5,2],[6,4,9]],[[5,8,2],[5,8,2],[5,9,2]],[[5,8,2],[5,8,2],[5,9,2]]])
 
 ##Print test result
 #plot3dmatrix(test_arr)
